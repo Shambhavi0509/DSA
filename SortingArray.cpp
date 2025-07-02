@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isSorted(int arr[], int n) {
-    // Base case: If array has 0 or 1 element, it's sorted
+    
     if (n == 1 || n == 0) {
         return true;
     }
