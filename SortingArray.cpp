@@ -12,7 +12,6 @@ bool isSorted(int arr[], int n) {
         return false;
     }
 
-    // Recursive call on the rest of the array
     return isSorted(arr + 1, n - 1);
 }
 
